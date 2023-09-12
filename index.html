@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find FACTORIAL</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+</head>
+<body>
+    <div class="container w-50 bg-black p-5 text-white">
+        <h1 class="">Find FACTORIAL</h1>
+        <input id="a1" type="text" class="form-conttrol mt-5" placeholder="Enter Age">
+        <button onclick="factorial()" class=" btn-info mt-5" type="button">Check</button>
+    </div>
+</body>
+<script>
+    function factorial(){
+        n=parseInt(a1.value)
+        pro=1
+        for(;n>0;n--){
+            pro=pro*n
+        }
+        alert(pro)
+    }
+</script>
+</html>
+
+
+
